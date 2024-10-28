@@ -1,0 +1,38 @@
+ #Sample for the environnement variable
+
+MAIN_DB=db_main
+MAIN_USER='<username>'
+MAIN_PASSWORD='<password>'
+MAIN_HOST=db_main
+MAIN_PORT=5432
+
+UM_DB=db_um
+UM_USER='<username>'
+UM_PASSWORD='<password>'
+UM_HOST=db_um
+UM_PORT=5432
+
+GAME_DB=db_game
+GAME_USER='<username>'
+GAME_PASSWORD='<password>'
+GAME_HOST=db_game
+GAME_PORT=5432
+
+# Django settings
+DJANGO_SECRET_KEY='<generated_key>'
+DJANGO_DEBUG=True
+DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1,[::1],transcendence.42.fr,db_um,db_game,usermanagement,front,game,https://localhost:8000,paul-f5Ar2s1
+
+# Superuser settings
+DJANGO_SUPERUSER_USERNAME='<username>'
+DJANGO_SUPERUSER_EMAIL='<email>'
+DJANGO_SUPERUSER_PASSWORD='<password>'
+
+# CRSF settings
+CSRF_TRUSTED_ORIGINS=http://usermanagement:8003,http://main:8001,http://game:8002,https://localhost:8000,https://paul-f5ar2s1:8000
+
+# Additional settings (if needed)
+DJANGO_LOG_LEVEL=debug
+
+# 42 API settings
+SECRET_KEY_42="<42_API_key>"
