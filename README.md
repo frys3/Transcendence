@@ -1,5 +1,5 @@
 # Transcendence
-An online multiplayer pong game.
+A web application designed for the mighty Pong contest ! The goal is to allow users to play real-time multiplayer Pong with other participants.
 
 ## Installation
 Clone the repository.
