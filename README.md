@@ -4,7 +4,7 @@ An online multiplayer pong game.
 ## Installation
 Clone the repository.
 
-Make sure you have an .env file with all the necessary API keys (42, Django, Google). You can use the file .envsample for reference.
+Make sure you have an .env file with all the necessary API keys (42, Django). You can use the file .envsample for reference.
 
 Your machine should have docker installed with sudo privileges.
 
